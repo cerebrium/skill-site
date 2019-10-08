@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout</title>
+</head>
+    <style>
+        #bodyMain {
+            position: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            color: black;
+            font-size: 1em;
+        }
+
+        #topBar {
+            justify-content: flex-start;
+        }
+
+        #imageOne {
+            justify-content: center;
+        }
+    </style>
+    <body id="bodyMain">
+        <div id="topBar">
+            <a href="./contact"> CONTACT | </a>
+            <a href="./skill"> SKILLS | </a>
+            <a href="./"> HOME | </a>
+        </div>
+        <%- body %>
+    </body>
+</html>
